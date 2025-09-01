@@ -14,8 +14,7 @@ header {
   display: flex;
   background-color: #1f2937;
   color: white;
-  border: 1px solid red;
-  padding: 15px 150px 0px 150px;
+  padding: 15px 190px 0px 190px;
   align-items: baseline;
 }
 
@@ -27,14 +26,46 @@ nav ul {
   gap: 30px;
 }
 
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  line-height: 45px;
+  padding-bottom: 10px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  padding: 7px 25px;
+  border: 0px;
+  font-weight: 900;
+  font-size: 15px;
+}
+
 .logo {
   margin-right: auto;
   font-size: 24px;
 }
 
 .hero-section {
+  display: flex;
   background-color: #1f2937;
-  border: 1px solid pink;
-  padding: 0px 150px;
+  padding: 90px 190px;
+  gap: 40px;
   color: white;
+  max-height: 450px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  color: #e5e7eb;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+.hero-image img {
+  width: 500px;
+  height: 250px;
 }
