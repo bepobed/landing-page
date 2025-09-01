@@ -1,13 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 header {
   display: flex;
   background-color: #1f2937;
-  margin: 0;
-  padding: 0;
+  color: white;
+  border: 1px solid red;
+  padding: 15px 150px 0px 150px;
+  align-items: baseline;
 }
 
 nav ul {
   display: flex;
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
+  gap: 30px;
+}
+
+.logo {
+  margin-right: auto;
+  font-size: 24px;
+}
+
+.hero-section {
+  background-color: #1f2937;
+  border: 1px solid pink;
+  padding: 0px 150px;
+  color: white;
 }
