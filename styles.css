@@ -101,5 +101,17 @@ button {
 .content-quote {
   background-color: #e5e7eb;
   text-align: center;
-  padding: 0 320px;
+  padding: 80px 320px;
+  font-size: 28px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  text-align: start;
+}
+
+.author {
+  margin-top: 20px;
+  text-align: end;
+  font-weight: 600;
+  font-size: 22px;
 }
