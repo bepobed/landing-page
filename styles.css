@@ -34,6 +34,11 @@ h1 {
   padding-bottom: 10px;
 }
 
+h2 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
 button {
   background-color: #3882f6;
   color: white;
@@ -68,4 +73,33 @@ button {
 .hero-image img {
   width: 500px;
   height: 250px;
+}
+
+.content-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 50px;
+}
+
+.images-carousel {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+.images-carousel img {
+  max-width: 200px;
+}
+
+.images-carousel p {
+  max-width: 150px;
+  text-align: center;
+}
+
+.content-quote {
+  background-color: #e5e7eb;
+  text-align: center;
+  padding: 0 320px;
 }
