@@ -14,7 +14,7 @@ header {
   display: flex;
   background-color: #1f2937;
   color: white;
-  padding: 25px 90px 50px 90px;
+  padding: 35px 90px 35px 90px;
   position: relative;
   justify-content: space-between;
   align-items: baseline;
@@ -30,6 +30,15 @@ header::after {
   right: 90px; /* Match your right padding */
   height: 1px;
   background-color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  top: 30px;
+  transform: translateX(-50%);
 }
 
 nav ul {
@@ -66,14 +75,6 @@ button {
   border: 0px;
   font-weight: 900;
   font-size: 15px;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .hero-section {
