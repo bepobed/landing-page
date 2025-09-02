@@ -81,7 +81,7 @@ button {
 .hero-section {
   display: flex;
   background-color: #000000e6;
-  padding: 90px 190px;
+  padding: 50px 190px 50px 190px;
   gap: 40px;
   color: white;
   max-height: 450px;
@@ -106,8 +106,14 @@ button {
 
 .hero-image img {
   width: 500px;
-  height: 285px;
+  height: 360px;
   object-fit: cover;
+  object-position: 50% calc(50% + 25px);
+  padding-bottom: 15px;
+}
+
+.hero-title {
+  padding-top: 40px;
 }
 
 .content-info {
