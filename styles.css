@@ -14,9 +14,22 @@ header {
   display: flex;
   background-color: #1f2937;
   color: white;
-  padding: 15px 90px 0px 90px;
+  padding: 25px 90px 50px 90px;
   position: relative;
   justify-content: space-between;
+  align-items: baseline;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 90px; /* Match your left padding */
+  right: 90px; /* Match your right padding */
+  height: 1px;
+  background-color: white;
 }
 
 nav ul {
@@ -57,6 +70,7 @@ button {
 
 .logo {
   font-size: 24px;
+  font-weight: 400;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
