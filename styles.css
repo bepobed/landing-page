@@ -14,8 +14,9 @@ header {
   display: flex;
   background-color: #1f2937;
   color: white;
-  padding: 15px 190px 0px 190px;
-  align-items: baseline;
+  padding: 15px 90px 0px 90px;
+  position: relative;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -55,8 +56,10 @@ button {
 }
 
 .logo {
-  margin-right: auto;
   font-size: 24px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .hero-section {
