@@ -59,7 +59,7 @@ h1 {
 
 h2 {
   font-size: 24px;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 h3 {
@@ -110,6 +110,7 @@ button {
   object-fit: cover;
   object-position: 50% calc(50% + 25px);
   padding-bottom: 15px;
+  border-radius: 3px;
 }
 
 .hero-title {
@@ -135,7 +136,7 @@ button {
 }
 
 .images-carousel p {
-  max-width: 150px;
+  max-width: 200px;
   text-align: center;
 }
 
